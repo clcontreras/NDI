@@ -1,8 +1,10 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello" << std::endl;
-    std::cout << "World" << std::endl;
-    std::cout << "!" << std::endl;
+    int a, b;
+    std::cout << "Se suman dos numeros" << std::endl;
+    a = 10;
+    b = 20;
+    std::cout << "La suma de a y b en el source file es " << a + b;
     return 0;
 }
